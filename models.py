@@ -282,6 +282,9 @@ class Source1(SubjectData):
     # add meta property
     class Meta: 
         db_table = 'mydata_source1'
+    Exam_RunningScore = models.IntegerField(null=True, blank=True)
+    OWL_RunningScore = models.FloatField(null=True, blank=True)
+    Quiz_RunningScore = models.FloatField(null=True, blank=True)
     ExitQ1_AttribQuote = models.IntegerField(null=True, blank=True)
     ExitQ2_PhotoPermit = models.IntegerField(null=True, blank=True)
     ExitQ3_ClassReDo = models.TextField(null=True, blank=True)
