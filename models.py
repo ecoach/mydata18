@@ -282,6 +282,7 @@ class Source1(SubjectData):
     # add meta property
     class Meta: 
         db_table = 'mydata_source1'
+    PR_Challenge_Exam1 = models.IntegerField(null=True, blank=True)
     Exam_RunningScore = models.IntegerField(null=True, blank=True)
     OWL_RunningScore = models.FloatField(null=True, blank=True)
     Quiz_RunningScore = models.FloatField(null=True, blank=True)
