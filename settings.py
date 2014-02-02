@@ -3,6 +3,8 @@ host = socket.gethostname()
 
 if host == "ecoach2.lsa.umich.edu":
     HOST = "DEVELOPMENT"
+    DEBUG = True
+    TEMPLATE_DEBUG = DEBUG
 elif host == "ecoach3.lsa.umich.edu":
     HOST = "PRODUCTION"
 else:
