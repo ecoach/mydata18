@@ -431,6 +431,7 @@ class Source1(SubjectData):
     zombi_3_rewrite = models.TextField(null=True, blank=True)
     zombi_4_rewrite = models.TextField(null=True, blank=True)
     PreExam2_Q1 = models.IntegerField(null=True, blank=True)
+    CSP = models.IntegerField(null=True, blank=True)
 
 class EmptySource(SubjectData):
     pass
