@@ -283,6 +283,7 @@ class Source1(SubjectData):
     class Meta: 
         db_table = 'mydata_source1'
     PR_Challenge_Exam1 = models.IntegerField(null=True, blank=True)
+    PR_Challenge_Exam2 = models.IntegerField(null=True, blank=True)
     Exam_RunningScore = models.IntegerField(null=True, blank=True)
     OWL_RunningScore = models.FloatField(null=True, blank=True)
     Quiz_RunningScore = models.FloatField(null=True, blank=True)
@@ -306,7 +307,9 @@ class Source1(SubjectData):
     Exam_1_Satisfaction = models.IntegerField(null=True, blank=True)
     Exam_2_Satisfaction = models.IntegerField(null=True, blank=True)
     PRC_Ex1_Days = models.IntegerField(null=True, blank=True)
+    PRC_Ex2_Days = models.IntegerField(null=True, blank=True)
     PRC_Ex1_ProbsPerDay = models.FloatField(null=True, blank=True)
+    PRC_Ex2_ProbsPerDay = models.FloatField(null=True, blank=True)
     PR_ProblemsTried_Exam2 = models.IntegerField(null=True, blank=True)
     PR_ProblemsTried_Exam1 = models.IntegerField(null=True, blank=True)
     Message_3_Q1 = models.IntegerField(null=True, blank=True)
